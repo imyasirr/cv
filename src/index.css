@@ -174,9 +174,11 @@
 
 .hero-portrait img {
   display: block;
-  height: 118%;
+  height: 100%;
   object-fit: cover;
-  object-position: center 12%;
+  object-position: center 10%;
+  transform: scale(1.9);
+  transform-origin: center 16%;
   width: 100%;
 }
 
@@ -761,13 +763,16 @@
 
 .portrait {
   background: var(--acid);
+  border-radius: 50%;
   color: var(--ink);
-  height: 30vw;
+  height: 32vw;
   margin-top: 3rem;
-  max-height: 460px;
-  min-height: 360px;
+  max-height: 500px;
+  max-width: 360px;
+  min-height: 420px;
   overflow: hidden;
   position: relative;
+  width: 78%;
 }
 
 .portrait-shape {
@@ -796,22 +801,8 @@
   display: block;
   height: 100%;
   object-fit: cover;
-  object-position: center 18%;
+  object-position: center 16%;
   width: 100%;
-}
-
-.portrait span {
-  background: var(--acid);
-  bottom: 0;
-  color: var(--ink);
-  font-size: 0.72rem;
-  font-weight: 600;
-  left: 0;
-  letter-spacing: 0.08em;
-  line-height: 1.2;
-  padding: 0.75rem 1rem;
-  position: absolute;
-  text-transform: uppercase;
 }
 
 .edu-block {
@@ -1245,8 +1236,12 @@ footer {
     position: static;
   }
   .portrait {
-    height: 105vw;
-    max-height: 500px;
+    height: 108vw;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 520px;
+    max-width: none;
+    width: 74%;
   }
   .about-copy {
     margin-top: 4rem;

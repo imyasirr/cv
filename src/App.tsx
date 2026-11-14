@@ -318,7 +318,6 @@ export default function App() {
           <p className="section-label">About</p>
           <div className="portrait">
             <img src="/my-profile-img.jpg" alt="Portrait of Yasir Hussain" />
-            <span>Lucknow, India</span>
           </div>
         </div>
         <div className="about-copy">
